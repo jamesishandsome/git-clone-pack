@@ -1,0 +1,28 @@
+{
+  "name": "git-clone-pack",
+  "version": "0.0.2",
+  "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesishandsome/git-download-pack.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "term",
+    "console",
+    "git",
+    "download-git-repo"
+  ],
+  "author": "James Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesishandsome/git-download-pack/issues"
+  },
+  "homepage": "https://github.com/jamesishandsome/git-download-pack#readme"
+}
