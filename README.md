@@ -7,7 +7,7 @@
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![npm](https://img.shields.io/npm/v/git-download-pack)
+![npm](https://img.shields.io/npm/v/git-clone-pack)
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/jamesishandsome)
 ## Installation
 
