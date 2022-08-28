@@ -13,7 +13,7 @@
 
 
 ```bash
-  npm install git-download-pack
+  npm install git-clone-pack
 ```
     
 ## Authors
@@ -24,7 +24,7 @@
 ## Usage/Examples
 
 ```javascript
-import {download,clone} from 'git-download-pack'
+import {download,clone} from 'git-clone-pack'
 
 ```
 
