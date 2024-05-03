@@ -1,0 +1,45 @@
+{
+  "name": "git-clone-pack",
+  "version": "0.0.2",
+  "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesishandsome/git-download-pack.git"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && yalc push",
+    "prepare": "husky",
+    "lint": "biome check --apply ./packages"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "term",
+    "console",
+    "git",
+    "download-git-repo"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "1.7.2",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/react": "^18.3.1",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.12",
+    "rollup": "^4.17.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "^5.2.2"
+  },
+  "author": "James Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesishandsome/git-download-pack/issues"
+  },
+  "homepage": "https://github.com/jamesishandsome/git-download-pack#readme",
+  "dependencies": {
+    "husky": "^9.0.11"
+  }
+}

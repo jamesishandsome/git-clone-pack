@@ -1,28 +1,26 @@
 {
   "name": "git-clone-pack",
-  "version": "0.0.2",
-  "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
+  "version": "0.0.1",
+  "description": "> Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesishandsome/git-download-pack.git"
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.12",
+    "husky": "^9.0.11",
+    "rollup": "^4.17.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "^5.4.5"
   },
-  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
-  "keywords": [
-    "cli",
-    "terminal",
-    "term",
-    "console",
-    "git",
-    "download-git-repo"
-  ],
-  "author": "James Hu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jamesishandsome/git-download-pack/issues"
-  },
-  "homepage": "https://github.com/jamesishandsome/git-download-pack#readme"
+  "author": "",
+  "license": "ISC"
 }
