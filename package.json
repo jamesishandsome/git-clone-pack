@@ -21,6 +21,7 @@
 		"typescript": "^5.4.5",
 		"vitepress": "^1.2.2"
 	},
+	"files": ["dist"],
 	"keywords": ["cli", "terminal", "term", "console", "git", "download-git-repo"],
 	"scripts": {
 		"prepare": "husky",
