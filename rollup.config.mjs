@@ -3,22 +3,22 @@ import esbuild from "rollup-plugin-esbuild";
 
 export default [
 	{
-		input: "src/index.ts",
+		input: "packages/git-clone-pack/main.ts",
 		plugins: [esbuild()],
 		output: [
 			{
-				file: "dist/bundle.js",
+				file: "dist/index.js",
 				format: "cjs",
 				sourcemap: true,
 			},
 		],
-        external: ["react"],
+		external: ["react"],
 	},
 	{
-		input: "src/index.ts",
+		input: "packages/git-clone-pack/main.ts",
 		plugins: [dts()],
 		output: {
-			file: "dist/bundle.d.ts",
+			file: "dist/index.d.ts",
 			format: "es",
 		},
 		external: ["react"],
