@@ -5,8 +5,8 @@
 import { execa } from "execa";
 
 const clone = async (url: string, dest: string) => {
-    await execa("git", ["clone", url, dest]);
-    return dest;
+	await execa("git", ["clone", url, dest]);
+	return dest;
 };
 
 export default clone;

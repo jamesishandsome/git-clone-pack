@@ -1,6 +1,6 @@
 {
 	"name": "git-clone-pack",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "> Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
 	"repository": {
 		"type": "git",
@@ -15,7 +15,7 @@
 		"fs-extra": "^11.2.0",
 		"glob": "^10.3.15",
 		"husky": "^9.0.11",
-		"rollup": "^4.17.2",
+		"rollup": "4.24.4",
 		"rollup-plugin-dts": "^6.1.1",
 		"rollup-plugin-esbuild": "^6.1.1",
 		"typescript": "^5.4.5",
@@ -29,7 +29,7 @@
 		"docs:dev": "vitepress dev",
 		"docs:build": "vitepress build",
 		"docs:preview": "vitepress preview",
-		"format": "biome --write .",
+		"format": "biome format --write .",
 		"lint": "biome lint ./packages",
 		"build": "rm -rf dist && rollup -c && yalc push"
 	},
