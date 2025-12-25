@@ -1,0 +1,49 @@
+{
+  "name": "git-clone-pack",
+  "version": "1.0.0",
+  "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) with modern tooling.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "build": "bun x tsc",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "download",
+    "git",
+    "clone",
+    "github",
+    "gitlab",
+    "bitbucket",
+    "repo",
+    "repository",
+    "tar",
+    "zip",
+    "extract"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/bun": "latest",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "execa": "^9.6.1"
+  }
+}
